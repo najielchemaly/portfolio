@@ -27,6 +27,13 @@ export default new LocalizedStrings({
       validator: (field) => `${field} is required`,
       messageSent: "Your message has been sent successfully",
     },
+    header: {
+      home: "Home",
+      about: "About",
+      resume: "Resume",
+      portfolios: "Portfolios",
+      contact: "Contact",
+    },
   },
   ar: {},
 });

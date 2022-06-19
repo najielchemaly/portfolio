@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import LineIcon from "react-lineicons";
 import { Link, NavLink } from "react-router-dom";
+import strings from "../data/localization/strings";
 
 function Header() {
   const [information, setInformation] = useState("");
@@ -36,27 +37,27 @@ function Header() {
         <ul className="mi-header-menu">
           <li>
             <NavLink to="/" end>
-              <span>Home</span>
+              <span>{strings.header.home}</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/about">
-              <span>About</span>
+              <span>{strings.header.about}</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/resume">
-              <span>Resume</span>
+              <span>{strings.header.resume}</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/portfolios">
-              <span>Portfolios</span>
+              <span>{strings.header.portfolios}</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="/contact">
-              <span>Contact</span>
+              <span>{strings.header.contact}</span>
             </NavLink>
           </li>
         </ul>
@@ -66,7 +67,7 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://najielchemaly.com"
+              href="http://najielchemaly.com"
             >
               Naji El Chemaly
             </a>
