@@ -208,7 +208,7 @@ const database = {
         position: "Senior Developer",
         company: "National Bank of Kuwait",
         details:
-          "Work on Banking Digital Transformation to create a smart banking platform in all GCC.Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system. Consult with engineering staff to evaluate interface between hardware and software, develop specifications and performance requirements, or resolve customer problems.Prepare reports or correspondence concerning project specifications, activities, or status.",
+          "Work on Banking Digital Transformation to create a smart banking platform in all GCC. Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system. Consult with engineering staff to evaluate interface between hardware and software, develop specifications and performance requirements, or resolve customer problems. Prepare reports or correspondence concerning project specifications, activities, or status.",
       },
       {
         id: 2,
