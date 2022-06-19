@@ -175,7 +175,7 @@ const database = {
       id: 7,
       title: "Ramy Chemaly App",
       subtitle:
-        "Maya Diab is an iPhone application dedicated for the celebrety Ramy Chemaly which includes all his biography, best moments at Staracademy 7 and his spiritual life.",
+        "Ramy Chemaly is an iPhone application dedicated for the celebrety Ramy Chemaly which includes all his biography, best moments at Staracademy 7 and his spiritual life.",
       url: "https://github.com/najielchemaly/RamyChemaly/tree/development",
     },
     {
