@@ -169,28 +169,28 @@ const database = {
       title: "Maya Diab App",
       subtitle:
         "Maya Diab is an iPad application dedicated for the celebrety Maya Diab which allows her to manage her outfits, create folder and arrange her collection of clothes.",
-      url: "https://github.com/najielchemaly/mayadiab/tree/master",
+      url: "https://github.com/najielchemaly/mayadiab",
     },
     {
       id: 7,
       title: "Ramy Chemaly App",
       subtitle:
         "Ramy Chemaly is an iPhone application dedicated for the celebrety Ramy Chemaly which includes all his biography, best moments at Staracademy 7 and his spiritual life.",
-      url: "https://github.com/najielchemaly/RamyChemaly/tree/development",
+      url: "https://github.com/najielchemaly/RamyChemaly",
     },
     {
       id: 8,
       title: "Innocent Minds App",
       subtitle:
         "Innocent Minds is an integrated Mobile App with active reporting for the Parents' and Caretakers' Smart Phones to view daily reports of your child, pictures and more…",
-      url: "https://github.com/najielchemaly/InnocentMinds_iOS/tree/master/",
+      url: "https://github.com/najielchemaly/InnocentMinds_iOS",
     },
     {
       id: 9,
       title: "HRMS",
       subtitle:
         "HRMS is a mobile application for HR that allows you to manage your absence, request any certificate from HR and review your payslip monthly.",
-      url: "https://github.com/najielchemaly/HRMS/tree/development",
+      url: "https://github.com/najielchemaly/HRMS",
     },
     {
       id: 10,

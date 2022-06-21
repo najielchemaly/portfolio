@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import * as Icon from "react-feather";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "./App.scss";
 import About from "./pages/About";
 import Contact from "./pages/Contact";

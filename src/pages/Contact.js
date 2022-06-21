@@ -8,16 +8,18 @@ import Sectiontitle from "../components/Sectiontitle";
 import strings from "../data/localization/strings";
 import sendMail from "../data/mail/mail";
 
+const initFormData = {
+  name: "",
+  email: "",
+  subject: "",
+  message: "",
+};
+
 function Contact() {
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);
-  const [formdata, setFormdata] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+  const [formdata, setFormdata] = useState(initFormData);
   const [handler, setHandler] = useState(null);
   const form = useRef();
 
@@ -44,10 +46,10 @@ function Contact() {
         message: strings.contact.validator("Message"),
       });
     } else {
-      sendMail(form.current)
-        .then((text) => {
-          console.log(text);
+      sendMail(formdata)
+        .then(() => {
           setHandler({ success: true, message: strings.contact.messageSent });
+          setFormdata(initFormData);
         })
         .catch((text) => console.log(text));
     }
@@ -120,7 +122,7 @@ function Contact() {
                     </label>
                     <input
                       onChange={handleChange}
-                      type="text"
+                      type="email"
                       name="email"
                       id="contact-form-email"
                       value={formdata.email}
