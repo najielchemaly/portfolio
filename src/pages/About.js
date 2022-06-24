@@ -118,7 +118,10 @@ function About() {
                   )}
                   {!information.phone ? null : (
                     <li>
-                      <b>{strings.about.phone}</b> {information.phone}
+                      <b>{strings.about.phone}</b>
+                      <a href={`tel:${information.phone}`}>
+                        {information.phone}
+                      </a>
                     </li>
                   )}
                   {!information.nationality ? null : (
@@ -134,7 +137,10 @@ function About() {
                   )}
                   {!information.email ? null : (
                     <li>
-                      <b>{strings.about.email}</b> {information.email}
+                      <b>{strings.about.email}</b>
+                      <a href={`mailto:${information.email}`}>
+                        {information.email}
+                      </a>
                     </li>
                   )}
                   {!information.address ? null : (

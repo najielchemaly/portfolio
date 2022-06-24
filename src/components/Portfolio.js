@@ -5,7 +5,7 @@ import * as Icon from "react-feather";
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
-  const { title, subtitle, imageUrl, largeImageUrl, url } = props.content;
+  const { title, subtitle, technologies, largeImageUrl, url } = props.content;
 
   const handleToggler = (value) => {
     setToggler(value);
@@ -46,6 +46,9 @@ function Portfolio(props) {
           </a>
         </h5>
       )}
+      {technologies ? (
+        <h6 className="mi-portfolio-technologies">{technologies}</h6>
+      ) : null}
       {subtitle ? <h6>{subtitle}</h6> : null}
       {!largeImageUrl ? null : (
         <FsLightbox toggler={toggler} sources={largeImageUrl} />

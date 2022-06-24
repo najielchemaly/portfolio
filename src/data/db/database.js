@@ -135,6 +135,7 @@ const database = {
       subtitle:
         "Kuwait's First Digital Bank, built by the youth for the youth. We use smart, secure technology to make banking easy. Out with paperwork. In with digital. Open an account instantly from your mobile phone, with a quick selfie and your Kuwait Mobile ID or Civil ID.",
       url: "https://www.weyaybank.com/Home",
+      technologies: "Swift, Kotlin, SpringBoot, Git, Jenkins",
     },
     {
       id: 2,
@@ -142,6 +143,7 @@ const database = {
       subtitle:
         "Al Rajhi app provides customized personal banking experience, to manage all your banking operations anytime, anywhere, with just a simple touch. In addition to a wide variety of services and products you can benefit from, without the need to visit the branch, you can shop via the Al Rajhi app eMarket and get personal financing in a matter of seconds.",
       url: "https://www.alrajhibank.com.sa/en/personal/services/pages/the-all-new-al-rajhi-app.aspx",
+      technologies: "React Native, Node.js, Jenkins",
     },
     {
       id: 3,
@@ -149,6 +151,7 @@ const database = {
       subtitle:
         "Rox Gas mobile application is a new and unique modern way to buy or order a refill for your cylinder with a push of a button. Download our app, register, and have quick access for ordering, tracking, as well as a map view of all our selling branches and cylinders availability across Lebanon.",
       url: "https://www.roxgas.com/",
+      technologies: "Swift, Java",
     },
     {
       id: 4,
@@ -156,6 +159,7 @@ const database = {
       subtitle:
         "At SOFFA, we integrate innovative technologies to optimize your parking-ecosystem's operations in terms of security, utility, and profitability. Through utilizing data analytics, artificial intelligence, and emerging technologies, SOFFA aims to re-imagine parking solutions.",
       url: "https://www.soffaparking.com",
+      technologies: "Swift, Java",
     },
     {
       id: 5,
@@ -163,6 +167,7 @@ const database = {
       subtitle:
         "Footwin is a mobile application that allows you to predict match results, challenge your colleagues and win a trip to your favorite team's Country. It was dedicated to Fifa World Cup 2018.",
       url: "https://github.com/najielchemaly/Footwin_iOS",
+      technologies: "Swift, Java",
     },
     {
       id: 6,
@@ -170,6 +175,7 @@ const database = {
       subtitle:
         "Maya Diab is an iPad application dedicated for the celebrety Maya Diab which allows her to manage her outfits, create folder and arrange her collection of clothes.",
       url: "https://github.com/najielchemaly/mayadiab",
+      technologies: "Swift, iPad",
     },
     {
       id: 7,
@@ -177,6 +183,7 @@ const database = {
       subtitle:
         "Ramy Chemaly is an iPhone application dedicated for the celebrety Ramy Chemaly which includes all his biography, best moments at Staracademy 7 and his spiritual life.",
       url: "https://github.com/najielchemaly/RamyChemaly",
+      technologies: "Swift",
     },
     {
       id: 8,
@@ -184,6 +191,7 @@ const database = {
       subtitle:
         "Innocent Minds is an integrated Mobile App with active reporting for the Parents' and Caretakers' Smart Phones to view daily reports of your child, pictures and more…",
       url: "https://github.com/najielchemaly/InnocentMinds_iOS",
+      technologies: "Swift, Java, .NET Core",
     },
     {
       id: 9,
@@ -191,6 +199,7 @@ const database = {
       subtitle:
         "HRMS is a mobile application for HR that allows you to manage your absence, request any certificate from HR and review your payslip monthly.",
       url: "https://github.com/najielchemaly/HRMS",
+      technologies: "React Native",
     },
     {
       id: 10,

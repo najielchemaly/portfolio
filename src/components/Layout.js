@@ -1,11 +1,11 @@
 import React from "react";
-import BackgroundLines from "../components/BackgroundLines";
+// import BackgroundLines from "../components/BackgroundLines";
 import Header from "../components/Header";
 
 function Layout(props) {
   return (
     <div className="mi-wrapper">
-      <BackgroundLines />
+      {/* <BackgroundLines /> */}
       <Header />
       {props.children}
     </div>

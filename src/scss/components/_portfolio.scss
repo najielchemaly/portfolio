@@ -27,10 +27,6 @@
       transform-origin: 0;
     }
 
-    img {
-      width: 100%;
-    }
-
     ul {
       margin-bottom: 0;
       padding-left: 0;
@@ -78,6 +74,15 @@
         }
       }
     }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &-technologies {
+    color: lightgrey !important;
+    margin-bottom: 10px;
   }
 
   h5 {

@@ -62,11 +62,6 @@ function Contact() {
     });
   };
 
-  const numberFormatter = (number) => {
-    const phnNumber = number;
-    return phnNumber;
-  };
-
   const handleAlerts = () => {
     if (handler && !handler.success) {
       return <div className="alert alert-danger mt-4">{handler.message}</div>;
@@ -173,9 +168,7 @@ function Contact() {
                       <h6>{strings.about.phone}</h6>
                       {phoneNumbers.map((phoneNumber) => (
                         <p key={phoneNumber}>
-                          <a href={numberFormatter(phoneNumber)}>
-                            {phoneNumber}
-                          </a>
+                          <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
                         </p>
                       ))}
                     </div>

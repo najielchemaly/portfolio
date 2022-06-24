@@ -394,6 +394,15 @@
       }
     }
 
+    img {
+      width: 100%;
+    }
+  
+    &-technologies {
+      color: gray !important;
+      margin-bottom: 10px;
+    }
+
     h5 {
       color: $light-color-heading;
 
