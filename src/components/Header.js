@@ -31,7 +31,7 @@ function Header() {
 
         <ul className="mi-header-menu">
           <li>
-            <NavLink to="/" end>
+            <NavLink to="/portfolio" end>
               <span>{strings.header.home}</span>
             </NavLink>
           </li>

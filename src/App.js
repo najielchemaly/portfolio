@@ -6,7 +6,6 @@ import "./App.scss";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Notfound from "./pages/Notfound";
 import Portfolios from "./pages/Portfolios";
 import Resumes from "./pages/Resumes";
 
