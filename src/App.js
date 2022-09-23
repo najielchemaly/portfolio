@@ -42,10 +42,10 @@ function App() {
       </div>
       <Routes>
         <Route path="/" index element={<Home lightMode={lightMode} />} />
-        <Route path="about" element={<About />} />
+        {/* <Route path="about" element={<About />} />
         <Route path="resume" element={<Resumes />} />
         <Route path="portfolios" element={<Portfolios />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} /> */}
         <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
