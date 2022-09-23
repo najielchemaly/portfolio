@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import FsLightbox from "fslightbox-react";
-import * as Icon from "react-feather";
 import { Helmet } from "react-helmet";
 import ProgressiveImage from "react-progressive-image";
 import Slider from "react-slick";
@@ -76,8 +74,7 @@ function About() {
             <div className="col-lg-6 mi-about-img">
               <div className="mi-about-image">
                 <ProgressiveImage
-                  src={information.aboutImage}
-                  placeholder="/images/about-image-placeholder.png"
+                  src={require("../assets/images/portfolio-image.png")}
                 >
                   {(src) => (
                     <img
@@ -88,13 +85,6 @@ function About() {
                     />
                   )}
                 </ProgressiveImage>
-                <span className="mi-about-image-icon">
-                  <Icon.ZoomIn />
-                </span>
-                <FsLightbox
-                  toggler={toggler}
-                  sources={[information.aboutImageLg]}
-                />
               </div>
             </div>
             <div className="col-lg-6">

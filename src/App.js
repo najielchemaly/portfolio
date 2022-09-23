@@ -41,12 +41,12 @@ function App() {
         ></button>
       </div>
       <Routes>
-        <Route path="/home" index element={<Home lightMode={lightMode} />} />
+        <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resumes />} />
         <Route path="/portfolios" element={<Portfolios />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<Notfound />} />
       </Routes>
     </BrowserRouter>
   );

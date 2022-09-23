@@ -22,9 +22,6 @@ const database = {
       dribbble: "",
       github: "https://github.com/najielchemaly",
     },
-    brandImage: "images/profile.jpeg",
-    aboutImage: "images/portfolio-image.png",
-    aboutImageLg: "images/portfolio-image-lg.png",
     cvfile: "files/resume.pdf",
   },
   services: [
