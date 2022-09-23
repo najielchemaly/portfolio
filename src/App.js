@@ -46,7 +46,7 @@ function App() {
         <Route path="/resume" element={<Resumes />} />
         <Route path="/portfolios" element={<Portfolios />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Notfound />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

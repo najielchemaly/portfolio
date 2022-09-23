@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import Particle from "../components/Particle";
 import Socialicons from "../components/Socialicons";
-// import strings from "../data/localization/strings";
+import strings from "../data/localization/strings";
 
 function Home({ lightMode }) {
   const [information, setInformation] = useState("");
@@ -19,8 +19,8 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>{"strings.common.title"}</title>
-        <meta name="description" content={"strings.common.title"} />
+        <title>{strings.common.title}</title>
+        <meta name="description" content={strings.common.title} />
       </Helmet>
       <div className="mi-home-area mi-padding-section">
         <Particle lightMode={lightMode} />
@@ -29,7 +29,7 @@ function Home({ lightMode }) {
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  {"strings.greeting"}{" "}
+                  {strings.home.greeting}{" "}
                   <span className="color-theme">{information.name}</span>
                 </h1>
                 <p>{information.aboutContent}</p>
