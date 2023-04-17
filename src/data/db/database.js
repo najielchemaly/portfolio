@@ -22,7 +22,7 @@ const database = {
       dribbble: "",
       github: "https://github.com/najielchemaly",
     },
-    cvfile: "files/resume.pdf",
+    cvfile: `${process.env.PUBLIC_URL}/files/resume.pdf`,
   },
   services: [
     {
