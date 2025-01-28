@@ -210,14 +210,22 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "Dec 2019 - Present",
+        year: "Dec 2023 - Present",
+        position: "Technical Lead",
+        company: "National Bank of Kuwait",
+        details:
+          "Building a blue print project for Weyay Digital Banking app for Egypt that will be the next digital transformation for National Bank of Kuwait. Managing a team of 6 developers working on iOS, Android and Spring Boot technologies using native programming languages Swift and Kotlin. Building an in-house frameworks for the Digital Onboarding journey to improve the user experience and enhance the stability of our Digital app. Building a solid automated environment to manage development, testing and production releases using Microsoft Azure platform.",
+      },
+      {
+        id: 2,
+        year: "Dec 2019 - Dec 2023",
         position: "Senior Developer",
         company: "National Bank of Kuwait",
         details:
           "Work on Banking Digital Transformation to create a smart banking platform in all GCC. Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system. Consult with engineering staff to evaluate interface between hardware and software, develop specifications and performance requirements, or resolve customer problems. Prepare reports or correspondence concerning project specifications, activities, or status.",
       },
       {
-        id: 2,
+        id: 3,
         year: "Nov 2018 - Dec 2019",
         position: "Senior Mobile Developer",
         company: "Eurisko Mobility",
@@ -225,7 +233,7 @@ const database = {
           "Work on native iOS mobile applications using latest Swift language and create Xcode project and file templates to help team members with using a standard and unified code. Integration with Jenkins, Git, Jira and SonarQube technologies. Develop unit testing using Jest technology for React Native apps.",
       },
       {
-        id: 3,
+        id: 4,
         year: "Jan 2017 - Oct 2018",
         position: "Team Leader",
         company: "intouch Mena",
@@ -233,7 +241,7 @@ const database = {
           "Provide any training that team members need and communicate clear instruction to them by listening to their feedback and keep them motivated. Create reports to update the company on the teams' progress. Delivering a good product, well tested and on time. Develop advanced mobile application integrated with our own live chat/streaming API.",
       },
       {
-        id: 4,
+        id: 5,
         year: "Sep 2015 - Jan 2017",
         position: "Mobile Application Developer",
         company: "Netiks International",
@@ -241,7 +249,7 @@ const database = {
           "Create mobile Internet Banking solutions, built with the latest technologies to minimize the volume of data exchanged with mobile devices. Deliver a good product, well tested and on time. Develop, test and deploy applications to the Play Store and AppStore.",
       },
       {
-        id: 5,
+        id: 6,
         year: "Jul 2013 - Aug 2015",
         position: "Mobile Application Developer",
         company: "Dataflow",

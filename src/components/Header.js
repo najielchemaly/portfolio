@@ -23,7 +23,7 @@ function Header() {
         <div className="mi-header-image">
           <Link to="/">
             <img
-              src={require("../assets/images/profile.jpeg")}
+              src={require("../assets/images/profile.jpg")}
               alt="brandimage"
             />
           </Link>
